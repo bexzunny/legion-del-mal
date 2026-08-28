@@ -5,3 +5,7 @@
 3. Brainac
 4. Joler
 5. Haerley Queen
+
+# Notas 
+
+Esto es una nota muy importante
