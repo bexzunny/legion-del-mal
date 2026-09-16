@@ -6,3 +6,12 @@ estado de la araña: **fallecida**
 + Duende verde
 + Doctor octopus
 + Miguel O'Hara
+## Aliados
++ Moon knight (mark)
++ Daredevil
++ Punisher
++ Jean Grey
+## Peliculas
++ Into the spider-verse
++ Across the spider-verse
++ Beyond the spider-verse
