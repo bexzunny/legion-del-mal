@@ -25,6 +25,15 @@ on:
                 - Normal 
                 - Alta
                 - Crítica
+        cows:
+            description: "Que cow?"
+            required: true
+            type: choice
+            options:
+                - eyes
+                - clippy
+                - fox
+            
 jobs:
   
   transmitir-mensajes:    
@@ -45,7 +54,7 @@ jobs:
             echo ""
             echo "Fecha: $(date -u +"%d/%m/%Y - %H:%M UTC")"
             echo "---- Mensaje ----"
-            cowsay -f eyes "${{inputs.mensaje}}"
+            cowsay -f "${{inputs.cows}}" "${{inputs.mensaje}}"
             echo ""
             echo "--- ${{inputs.villano}}"
             echo "..."
